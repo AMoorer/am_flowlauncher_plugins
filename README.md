@@ -2,6 +2,8 @@
 
 A powerful Flow Launcher plugin for quick access to folders, files, applications, and URLs via custom keywords. Includes a beautiful PySide6 GUI editor with **browser bookmark import** for managing shortcuts.
 
+<img src="docs/images/FlowLauncherShortcuts.jpg" alt="Editor Screenshot" style="zoom:80%;" />
+
 [![GitHub release](https://img.shields.io/github/v/release/AMoorer/am_flowlauncher_plugins)](https://github.com/AMoorer/am_flowlauncher_plugins/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -21,6 +23,9 @@ A powerful Flow Launcher plugin for quick access to folders, files, applications
 - **List View**: Use `s shortcutlist` to see all shortcuts grouped by category
 
 ### GUI Editor Features
+
+<img src="docs/images/FlowLauncherShortcutsEditor1.jpg" alt="Editor Screenshot" style="zoom:80%;" />
+
 - **Intuitive Interface**: Beautiful PySide6 application with dark mode support
 - **Browser Bookmark Import**: Import bookmarks from Chrome, Edge, Opera, Brave
 - **Custom Save Location**: Choose where shortcuts are saved
@@ -123,6 +128,8 @@ The Shortcuts Editor provides a comprehensive interface for managing shortcuts:
   - `About` - View version, features, and usage instructions
 
 ### Adding Shortcuts
+
+<img src="docs/images/FlowLauncherShortcutsEditor2.jpg" alt="Editor Screenshot" style="zoom:80%;" />
 
 1. Click **"Add Shortcut"**
 2. Fill in the fields:
@@ -369,6 +376,10 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Andy Moorer**  
 GitHub: [@AMoorer](https://github.com/AMoorer)
+Mail: andymoorer@gmail.com
+https://andy.moonbase.net
+
+<img src="docs/images/AndyMoorerThumbsUp.png" alt="Editor Screenshot" style="zoom:25%;" />
 
 ## 🙏 Acknowledgments
 
