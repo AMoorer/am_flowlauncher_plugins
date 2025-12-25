@@ -1,0 +1,53 @@
+name: Publish Release
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          cd ShortcutsEditor
+          pip install -r requirements.txt
+          pip install pyinstaller
+      
+      - name: Build standalone editor
+        run: |
+          cd ShortcutsEditor
+          python -m PyInstaller --noconfirm --onefile --windowed --name "ShortcutsEditor" --add-data "editor.py;." --hidden-import "PySide6.QtCore" --hidden-import "PySide6.QtGui" --hidden-import "PySide6.QtWidgets" --exclude-module "matplotlib" --exclude-module "scipy" --exclude-module "pandas" --exclude-module "numpy" editor.py
+      
+      - name: Create plugin package
+        run: |
+          mkdir release
+          mkdir release\Flow.Launcher.Plugin.Shortcuts
+          mkdir release\Flow.Launcher.Plugin.Shortcuts\Images
+          
+          copy Flow.Launcher.Plugin.Shortcuts\main.py release\Flow.Launcher.Plugin.Shortcuts\
+          copy Flow.Launcher.Plugin.Shortcuts\plugin.json release\Flow.Launcher.Plugin.Shortcuts\
+          copy Flow.Launcher.Plugin.Shortcuts\requirements.txt release\Flow.Launcher.Plugin.Shortcuts\
+          copy Flow.Launcher.Plugin.Shortcuts\shortcuts.json release\Flow.Launcher.Plugin.Shortcuts\
+          xcopy /E Flow.Launcher.Plugin.Shortcuts\Images release\Flow.Launcher.Plugin.Shortcuts\Images\
+      
+      - name: Create ZIP archive
+        run: |
+          powershell -command "Compress-Archive -Path 'release\Flow.Launcher.Plugin.Shortcuts' -DestinationPath 'Flow.Launcher.Plugin.Shortcuts.zip' -Force"
+      
+      - name: Upload plugin ZIP to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            Flow.Launcher.Plugin.Shortcuts.zip
+            ShortcutsEditor/dist/ShortcutsEditor.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
