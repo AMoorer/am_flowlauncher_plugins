@@ -160,6 +160,45 @@ Keywords are automatically generated from bookmark names, and duplicates are han
 | **Icon** | Path to icon file (png, ico, jpg) |
 | **Open With** | (Files only) Application path |
 
+### Manual Editing (Advanced)
+
+> **Note:** The GUI editor is the recommended way to manage shortcuts. This section is for advanced users who prefer direct JSON editing.
+
+If you prefer to manually create or edit shortcuts without using the editor:
+
+1. **Locate the shortcuts file**:
+   ```
+   %APPDATA%\FlowLauncher\Plugins\Flow.Launcher.Plugin.Shortcuts\shortcuts.json
+   ```
+   
+2. **Create/Edit the file** with your favorite text editor:
+   ```json
+   {
+     "shortcuts": [
+       {
+         "keyword": "myshortcut",
+         "type": "folder",
+         "path": "C:\\Users\\YourName\\Documents",
+         "category": "Folders",
+         "priority": 100,
+         "icon": "Images/folder.png"
+       }
+     ]
+   }
+   ```
+
+3. **Important notes**:
+   - Use double backslashes (`\\`) in Windows paths
+   - `type` must be one of: `folder`, `file`, `app`, or `url`
+   - `priority` range: 0-200 (higher appears first)
+   - `icon` paths are relative to plugin directory or absolute
+   - `openWith` is optional and only for `file` type
+   - The file must be valid JSON (check with a JSON validator if unsure)
+
+4. **After editing**: Restart Flow Launcher or reload plugins for changes to take effect
+
+**Tip:** Start with the editor to create a few shortcuts, then examine `shortcuts.json` to understand the format before manual editing.
+
 ## 📁 Repository Structure
 
 ```
