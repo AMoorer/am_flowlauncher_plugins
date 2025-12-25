@@ -31,7 +31,7 @@ echo.
 echo [INFO] Building standalone executable...
 echo.
 
-pyinstaller --noconfirm ^
+python -m PyInstaller --noconfirm ^
     --onefile ^
     --windowed ^
     --name "ShortcutsEditor" ^

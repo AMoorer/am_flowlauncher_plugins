@@ -20,7 +20,7 @@ echo ========================================
 echo.
 
 cd ShortcutsEditor
-call build_exe_NEW.bat
+call build_exe.bat
 if errorlevel 1 (
     echo [ERROR] Editor build failed!
     cd ..
@@ -88,7 +88,7 @@ echo  Step 5: Copying Documentation
 echo ========================================
 echo.
 
-copy README_NEW.md %RELEASE_DIR%\README.md
+copy README.md %RELEASE_DIR%\README.md
 copy LICENSE %RELEASE_DIR%\
 copy CHANGELOG.md %RELEASE_DIR%\
 copy QUICKSTART.md %RELEASE_DIR%\

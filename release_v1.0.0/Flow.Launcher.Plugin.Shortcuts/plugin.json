@@ -1,0 +1,12 @@
+{
+    "ID": "A8B9C1D2E3F4G5H6I7J8K9L0M1N2O3P4",
+    "ActionKeyword": "s",
+    "Name": "Shortcuts",
+    "Description": "Quick access to folders, files, apps, and URLs via custom keywords",
+    "Author": "Andy Moorer",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/AMoorer/am_flowlauncher_plugins",
+    "IcoPath": "Images\\shortcut.png",
+    "ExecuteFileName": "main.py"
+}

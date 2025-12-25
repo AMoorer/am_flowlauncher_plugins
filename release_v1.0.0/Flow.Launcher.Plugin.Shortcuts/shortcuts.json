@@ -1,0 +1,140 @@
+{
+  "shortcuts": [
+    {
+      "keyword": "PopcornFX2.23",
+      "type": "app",
+      "path": "C:/Program Files/Persistant Studios/PopcornFX-2.23.2/bin/PK-Editor.exe",
+      "category": "Apps",
+      "priority": 100,
+      "icon": "C:/Program Files/Persistant Studios/PopcornFX-2.23.2/iPKFX.ico"
+    },
+    {
+      "keyword": "documents",
+      "type": "folder",
+      "path": "C:/Users/andym/Documents",
+      "category": "Folders",
+      "priority": 100,
+      "icon": "C:/Windows/WinSxS/amd64_userexperience-desktop_31bf3856ad364e35_10.0.26100.1591_none_c815e77f1a5104dd/CBS/WindowsBackup/Assets/folderdocuments.ico"
+    },
+    {
+      "keyword": "emergency-vet",
+      "type": "url",
+      "path": "http://www.denveranimalemergency.com/",
+      "category": "Info",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "tech-artists-org",
+      "type": "url",
+      "path": "http://tech-artists.org/",
+      "category": "TechArt",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "damn-interesting--a-collectio",
+      "type": "url",
+      "path": "http://www.damninteresting.com/",
+      "category": "Fun",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "dudeiwantthatcom---a-geeks-g",
+      "type": "url",
+      "path": "http://www.dudeiwantthat.com/",
+      "category": "Shopping",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "cgcircuit",
+      "type": "url",
+      "path": "https://www.cgcircuit.com/",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "learn-squared",
+      "type": "url",
+      "path": "https://www.learnsquared.com/home#",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "motion-graphics--rohan-dalvi-",
+      "type": "url",
+      "path": "https://www.rohandalvi.net/motion-graphics",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "my-videos--cmivfx",
+      "type": "url",
+      "path": "https://cmivfx.com/playlists/mytutorials",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "Stylized-vfx-in-rime",
+      "type": "url",
+      "path": "https://www.youtube.com/watch?v=fwKQyDZ4ark",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "Pluralsight",
+      "type": "url",
+      "path": "https://app.pluralsight.com/library/",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "Moss-material-layer",
+      "type": "url",
+      "path": "https://www.youtube.com/watch?v=HDluA1f5gzw",
+      "category": "Training",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "am-github-techart01",
+      "type": "url",
+      "path": "https://github.com/AMoorer/TechArt_01",
+      "category": "AndyDev",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "annas-archive-libgen-librar",
+      "type": "url",
+      "path": "https://annas-archive.org/",
+      "category": "Books",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "liminal",
+      "type": "url",
+      "path": "http://192.168.1.143:4001/chat/61b3cb6c-b13f-4aa5-ac87-61cc7589b3b7",
+      "category": "Andy AI",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    },
+    {
+      "keyword": "Amazon-de-drm",
+      "type": "url",
+      "path": "https://www.howtogeek.com/how-to-remove-amazon-drm-from-your-kindle-books/",
+      "category": "Books",
+      "priority": 80,
+      "icon": "Images/bookmark.png"
+    }
+  ]
+}
