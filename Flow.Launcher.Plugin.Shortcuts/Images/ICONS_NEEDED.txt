@@ -1,0 +1,66 @@
+Icons Needed for Shortcuts Plugin
+===================================
+
+Place PNG, ICO, or JPG icon files in this directory.
+
+Required Icons (with suggested sources):
+-----------------------------------------
+
+1. shortcut.png (48x48+)
+   - Main plugin icon
+   - Suggestion: Keyboard shortcut icon or lightning bolt
+
+2. folder.png (48x48+)
+   - For folder shortcuts
+   - Suggestion: Folder icon
+
+3. file.png (48x48+)
+   - For file shortcuts
+   - Suggestion: Document icon
+
+4. app.png (48x48+)
+   - For application shortcuts
+   - Suggestion: Application window icon
+
+5. bookmark.png (48x48+)
+   - For URL bookmark categories
+   - Suggestion: Star or bookmark icon
+
+6. copy.png (32x32+)
+   - Context menu copy action
+   - Suggestion: Clipboard or copy icon
+
+7. delete.png (32x32+)
+   - Context menu delete action
+   - Suggestion: Trash bin or X icon
+
+Icon Resources:
+---------------
+- Icons8: https://icons8.com (free with attribution)
+- Flaticon: https://flaticon.com (free with attribution)
+- Feather Icons: https://feathericons.com (MIT license)
+- Material Icons: https://fonts.google.com/icons (Apache 2.0)
+- Font Awesome: https://fontawesome.com (free tier available)
+
+Tips:
+-----
+- Recommended size: 48x48 or larger (scales well)
+- Format: PNG with transparency preferred
+- Keep file sizes reasonable (<100KB each)
+- Use consistent style across icons
+
+Custom Icons:
+-------------
+Users can specify custom icons per shortcut in the editor.
+These default icons are fallbacks when no custom icon is set.
+
+Creating Your Own:
+------------------
+You can also create simple colored squares as temporary placeholders:
+- Use any image editor
+- Create 48x48 images
+- Use distinct colors for each type
+  - Blue for folders
+  - Green for files
+  - Orange for apps
+  - Red for bookmarks
